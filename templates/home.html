@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook</title>
+    <link rel="stylesheet" type="text/css" href=" './home.css'">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="https://www.facebook.com/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook Logo">
+		</div>
+		<div class="search">
+			<input type="text" placeholder="Search Facebook">
+			<button>Search</button>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Friends</a></li>
+				<li><a href="#">Messages</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<div class="post">
+			<div class="user-info">
+				<img src="https://picsum.photos/50" alt="User Avatar">
+				<div >Email:  {{ email }}</div>
+				<div >Password: {{ password }}</div>
+				<div class="name">John Doe</div>
+				<div class="timestamp">2 hours ago</div>
+			</div>
+			<div class="content">
+				<p>Here is my post content.</p>
+				<img src="https://picsum.photos/400/300" alt="Post Image">
+			</div>
+			<div class="actions">
+				<button>Like</button>
+				<button>Comment</button>
+				<button>Share</button>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook Login</title>
+    <link rel="stylesheet" type="text/css" href=" './index.css'}">
+
+</head>
+<body>
+	<div class="login-form">
+		<h1>Log in to Facebook</h1>
+		<form action='home/' method="post">
+			{% csrf_token %} 
+			<label for="email">Email or Phone:</label><br>
+			<input type="text" id="email" name="email"><br>
+			<label for="password">Password:</label><br>
+			<input type="password" id="password" name="password"><br>
+			<input type="submit" value="Log In">
+		</form>
+		<a href="/">Forgot Password?</a>
+		<a href="/home">home Password?</a>
+		<a href="/fail">fail Password?</a>
+	</div>
+</body>
+</html>
+
+
+
+{% comment %} // {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "Django",
+//             "type": "python",
+//             "request": "launch",
+//             "stopOnEntry": false,
+//             "program": "${workspaceRoot}/manage.py",
+//             "django": true,
+//             "args": [
+//                 "runserver",
+//                 "8000"
+//             ],
+//             "justMyCode": false
+//         },
+//         {
+//             "name": "Python: Django",
+//             "type": "python",
+//             "request": "launch",
+//             "program": "${workspaceFolder}/manage.py",
+//             "args": [
+//                 "runserver"
+//             ],
+//             "django": true,
+//             "justMyCode": true
+//         }
+//     ]
+// } {% endcomment %}

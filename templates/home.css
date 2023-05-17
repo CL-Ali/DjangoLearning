@@ -1,0 +1,81 @@
+header {
+	background-color: #3b5998;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.logo img {
+	height: 40px;
+}
+
+.search input {
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.search button {
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.nav ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	margin-right: 10px;
+}
+
+.nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 10px;
+}
+
+.post {
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px #ccc;
+}
+
+.user-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.user-info img {
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.content img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.actions button {
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	margin-right: 10px;
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
